@@ -25,12 +25,14 @@ class _HomeScreenState extends State<HomeScreen> {
         tileMode: TileMode.clamp,
       ),
       body: Center(
-          child: Container(
-        height: 120,
-        width: 120,
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10), color: Colors.greenAccent),
-      )),
+        child: Container(
+          height: 120,
+          width: 120,
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: Colors.greenAccent),
+        ),
+      ),
     );
   }
 }
